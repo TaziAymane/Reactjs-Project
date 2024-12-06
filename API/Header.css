@@ -1,0 +1,51 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+  }
+  
+  .navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #4caf50;
+  }
+  
+  /* Hamburger icon */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+.fa-light{
+  color: beige;
+  
+}

@@ -1,0 +1,33 @@
+
+.products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer{
+
+    background-color: black;
+    width: 100%;
+    height: 100px;
+	color: #fff;
+}
+.footer .content{
+	display: flex;
+	justify-content: center;
+	
+}
+.slide-container{
+	padding-top: 20px;
+
+}
+h2{
+	font-style: italic;
+	
+}
+.des{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
